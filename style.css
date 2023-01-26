@@ -149,3 +149,74 @@ p.texto-contato {
     display: none;
   }
 }
+
+.container#projetos {
+  padding-top: 0rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  border: 0.12rem solid #615ec5;
+}
+
+h2#titulo-projetos {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #00ff60, #615ec5);
+  font-family: "Inconsolata", monospace;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+
+p.descricao-projeto {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.icone-html {
+  font-size: 1rem;
+}
+
+.imagem {
+  width: 39rem;
+  border-radius: 0.6rem;
+  border: 0.25rem solid;
+  border-color: #615ec5;
+}
+.imagem2 {
+  width: 39rem;
+  border-radius: 0.6rem;
+  border: 0.25rem solid;
+  border-color: #00ff60;
+}
+
+.fa-square-js,
+.fa-figma,
+.fa-css3-alt,
+.fa-html5,
+.fa-bootstrap {
+  font-size: 2.2rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #00ff60, #615ec5);
+}
+
+.galeria {
+  padding-top: 1.1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+p.descricao-projetos {
+  color: white;
+  font-size: 1.2rem;
+  opacity: 80%;
+}
