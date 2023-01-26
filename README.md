@@ -6,6 +6,3 @@ Para a implementação web e prototipagem foram utilizadas as seguintes tecnolog
 * CSS
 * Bootstrap
 * Photoshop
-
-# Preview (parcial)
-<img src="https://i.imgur.com/9fO8UTO.png">
