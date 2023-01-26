@@ -220,3 +220,16 @@ p.descricao-projetos {
   font-size: 1.2rem;
   opacity: 80%;
 }
+
+.fa-id-card {
+  font-size: 12rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #00ff60, #615ec5);
+}
+
+.container#sobre {
+  margin-top: 4rem;
+  border: 0.12rem solid #615ec5;
+}
