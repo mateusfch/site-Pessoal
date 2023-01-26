@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Mateus Charloto - Portfólio</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="container" id="container-cabecalho">
+        <h6 class="logo">mateusfch.exe</h6>
+        <div class="dropdown" id="menu-mobile">
+          <button
+            class="btn"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">#Home</a></li>
+            <li><a class="dropdown-item" href="#">#Sobre</a></li>
+            <li><a class="dropdown-item" href="#">#Projetos</a></li>
+            <li><a class="dropdown-item" href="#contato">#Contato</a></li>
+          </ul>
+        </div>
+        <nav class="cabecalho-menu">
+          <a class="cabecalho-menu-item" href="#">#Home</a>
+          <a class="cabecalho-menu-item" href="#">#Sobre</a>
+          <a class="cabecalho-menu-item" href="#">#Projetos</a>
+          <!-- <a class="cabecalho-menu-item" href="#">#Serviços</a> -->
+          <a class="cabecalho-menu-item" href="#contato">#Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="container" id="home">
+      <div class="row d-flex justify-content-center" id="home-row">
+        <div class="col-md-3 col-sm-12 align-self-center">
+          <h2 class="titulo-nome">MATEUS CHARLOTO</h2>
+          <h5 class="subtitulo-nome">DESENVOLVEDOR FRONT-END</h5>
+          <a
+            href="#contato"
+            type="button"
+            class="btn btn-primary"
+            id="botao-contato"
+          >
+            CONTATO
+          </a>
+          <a href="#" type="button" class="btn btn-primary" id="botao-projetos">
+            PROJETOS
+          </a>
+        </div>
+        <div class="col-md-6 col-sm-12 align-self-center">
+          <img class="img-fluid" src="imagemprincipal.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="contato">
+      <h2 class="titulo-secao">#CONTATO</h2>
+      <p class="texto-contato">
+        Caso queira entrar em contato comigo, estou sempre atento nas redes
+        sociais abaixo. <br />Além disso, estou disponível no número de
+        WhatsApp: <strong>(54) 9 9968-8092.</strong>
+      </p>
+      <div class="icones">
+        <a
+          href="https://www.linkedin.com/in/mateus-freitas-charloto-961717221/"
+          class="link-contato"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a href="#" class="link-contato"
+          ><i class="bi bi-envelope-at-fill"></i
+        ></a>
+        <a href="https://github.com/mateusfch" class="link-contato"
+          ><i class="bi bi-github"></i>
+        </a>
+      </div>
+      <h6 class="credito">Design e implementação por Mateus Charloto</h6>
+      <!-- <i class="bi bi-caret-right-fill"></i> Ciência da Computação, PUCRS,
+      2022-2026<br />
+      <i class="bi bi-caret-right-fill"></i> Técnico em Multimídia, IFRS,
+      2017-2021 -->
+    </section>
+  </body>
+</html>
